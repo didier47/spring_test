@@ -11,7 +11,6 @@ import org.springframework.data.cassandra.core.cql.keyspace.DataCenterReplicatio
 import org.springframework.data.cassandra.core.cql.keyspace.DropKeyspaceSpecification;
 import org.springframework.data.cassandra.core.cql.keyspace.KeyspaceOption;
 import org.springframework.data.cassandra.repository.config.EnableCassandraRepositories;
-import org.springframework.lang.NonNullApi;
 
 import java.util.Arrays;
 import java.util.List;
