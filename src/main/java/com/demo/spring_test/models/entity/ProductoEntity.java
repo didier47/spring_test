@@ -7,7 +7,7 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
@@ -25,6 +25,6 @@ public class ProductoEntity implements Serializable {
     private Double precio;
 
     @Column("created_at")
-    private LocalDate createdAt;
+    private LocalDateTime createdAt;
 
 }
